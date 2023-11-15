@@ -1,0 +1,73 @@
+body, #firstName, #lastName, #email, #tel, #birthday {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.triangle{
+    width: 65%;
+    height: 0;
+    display: flex;
+    margin: auto;
+    border: 150px solid transparent;
+    border-top: 0;
+    border-bottom: 150px solid rgb(38, 255, 0);
+  }
+
+.triangle span {
+color:#0e0808;
+font-size:40px;
+position: absolute;
+margin: auto;
+right: 0;
+top: 50px;
+left: 55px;
+text-align: center;
+}
+
+.formStyle {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 8px 0px;
+}
+
+.formStyle > * {
+    flex: 150px;
+}
+
+form#survey {
+    background-color: rgb(255, 0, 0);
+    background-image: radial-gradient(black 1px, transparent 0);
+    background-size: 30px 30px;
+    background-position: -50px -50px;
+    border-radius: 30px;
+    flex: 1 1 300px;
+    font-size: 25px;
+    padding: 10px;
+    margin: 20px;
+}
+
+legend {
+    background-color: rgb(245, 121, 125);
+    border-radius: 15px;
+    color: rgb(59, 1, 1);
+    padding: 5px;
+}
+
+div#button {
+    text-align: center;
+    width: 100%;
+}
+
+input[type='submit'], input[type='reset'] {
+    font-size: 15px;
+    padding: 5px;
+    margin: 10px;
+}
+input[type='submit']:hover, input[type='reset']:hover{
+    background-color: rgb(12, 158, 12);
+    color:whitesmoke
+}
+
+
+input:focus, select:focus, textarea:focus {
+    background-color: rgb(95, 250, 68);
+}
